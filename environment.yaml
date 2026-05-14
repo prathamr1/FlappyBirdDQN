@@ -1,0 +1,17 @@
+name: rl_clean
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - yaml
+  - numpy
+  - pytorch
+  - pytorch-cuda=12.8
+  - pip:
+    # Game engine for environment visuals
+    - pygame
+    # Reinforcement Learning APIs & Frameworks
+    - flappy-bird-gymnasium 
+
+prefix: C:\anaconda\envs\rl_clean
